@@ -565,10 +565,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-style: normal;
+    min-width: 165px;
     }
 
   .button-svg {
     margin-inline-start: 16px;
+  }
+
+  .footer-subscribe-button-icon{
+    margin-left: 16px;
   }
 
   /* 00000 */
@@ -802,4 +807,23 @@ body {
 
 .contact-form-send-buttom:active {
   background-color: var(--OCEAN);
+}
+
+
+.input-class{
+  width:246px;
+  height:40px;
+  border:1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px; 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff; 
+}
+
+::placeholder {
+  color #ffffff;
 }
